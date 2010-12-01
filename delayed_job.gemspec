@@ -17,7 +17,7 @@ This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)
   s.require_paths     = ["lib"]
   s.test_files        = Dir.glob('spec/**/*')
 
-  s.add_runtime_dependency      'daemons'
+  s.add_runtime_dependency      'ghazel-daemons'
   s.add_runtime_dependency      'activesupport',  '~>3.0'
   s.add_development_dependency  'rspec',          '~>2.0'
   s.add_development_dependency  'rake'
